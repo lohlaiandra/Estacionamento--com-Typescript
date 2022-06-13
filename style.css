@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans');
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+}
+
+.areaInput {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    padding: 30px;
+}
+
+#cadastrar {
+    background-color: rgb(166, 189, 240);
+    color: black;
+    border-radius: 10%;
+    font-weight: 600;
+    text-align: center;
+}
+
+.delete {
+    background-color: rgb(198, 122, 122);
+    color: black;
+    border-radius: 10%;
+    font-weight: 600;
+    text-align: center;
+}
+
+.area {
+    border: 1px solid black;
+    padding: 5px;
+}
